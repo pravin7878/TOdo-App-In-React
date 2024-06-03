@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 const ShowTask = ({ tasks ,settasks}) => {
-    console.log(tasks);
         const hendelstatus = (index) => {
             let updatedTasks = [...tasks]; // 
             updatedTasks[index].status = !updatedTasks[index].status;
